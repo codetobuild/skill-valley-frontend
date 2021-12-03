@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --navbar_font_size: 1.2rem;
+}
+body {
+  scroll-behavior: smooth;
+  line-height: 1;
+}
+
+.navbar {
+  background-color: #e70074;
+  color: #ffffff;
+  padding: 1rem;
+  position: sticky;
+  left: 0%;
+  top: 0%;
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: flex-start;
+}
+.navbar_item {
+  font-size: var(--navbar_font_size);
+}
+
+.navbar_item .navbar_title {
+  padding-left: 1rem;
+}
+ 

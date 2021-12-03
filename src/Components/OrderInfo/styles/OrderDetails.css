@@ -1,0 +1,154 @@
+.order_details {
+  padding: 1rem;
+}
+.card {
+  padding: 1rem;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.card_heading {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card_title {
+  text-align: left;
+  font-weight: 500;
+}
+
+.card_text {
+  font-size: 0.9rem;
+  text-align: left;
+  color: #8b8b8b;
+}
+.drop_ship {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropship_toggle {
+  color: #e70074;
+  font-size: 1.5rem;
+}
+
+/* product details card */
+.product_details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+  margin-top: 1rem;
+}
+.product_image {
+  width: 100%;
+  height: auto;
+}
+.product_image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product_heading {
+  font-size: 0.9rem;
+  text-align: left;
+  padding-left: 10px;
+}
+.product_heading > div {
+  margin-bottom: 5px;
+}
+
+.product_price {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product_price .price_text {
+  color: #8b8b8b;
+}
+.product_price .price_rate {
+  color: #e70074;
+}
+.product_message {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #8b8b8b;
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+/* voucher card */
+
+.voucher {
+  display: grid;
+  grid-template-columns: minmax(20px, 40px) 1fr;
+  align-items: center;
+  border-bottom: 1px solid #8b8b8b;
+}
+
+.voucher_logo {
+  width: 30px;
+  height: 30px;
+  transform: rotate(30deg);
+}
+.voucher_logo img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.voucher_input {
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: space-between;
+}
+.voucher_input input,
+button {
+  background-color: none;
+  border: none;
+  outline: none;
+}
+.voucher_input input {
+  font-size: 1rem;
+}
+
+/* order summary */
+
+.order_summary ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order_summary .item_list {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grand_total_price {
+  color: #e70074;
+}
+
+.term_condition_text {
+  text-align: left;
+}
+.order_finish_button {
+  color: #ffffff;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background: #e70074;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+}
