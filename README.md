@@ -1,5 +1,5 @@
 # skill-valley-frontend
-
+This is a front-end project built with Reactjs. It displays product order details summary. 
 
 
 # Getting Started with Create React App
